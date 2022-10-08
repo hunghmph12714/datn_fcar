@@ -35,8 +35,8 @@
                         <i class="ion ion-bag"></i>
                     </div>
                     @can('list-category')
-                    <a href="{{ route('CompanyComputer.index') }}" class="small-box-footer">Chi tiết <i
-                            class="fas fa-arrow-circle-right"></i></a>
+                    {{-- <a href="{{ route('CompanyComputer.index') }}" class="small-box-footer">Chi tiết <i
+                            class="fas fa-arrow-circle-right"></i></a> --}}
                     @endcan
                 </div>
             </div>
